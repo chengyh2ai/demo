@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+app:
+  welcome-message: "hello from application.yml"
+
+remote:
+  user-service:
+    name: demo-user-service
+    url: http://localhost:${server.port}
+    path: /api
