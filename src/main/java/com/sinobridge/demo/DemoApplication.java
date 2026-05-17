@@ -12,7 +12,7 @@ http://localhost:8080/orders/create?userId=100
 -> OrderController.createOrder(userId)
 -> OrderService.createOrder(userId)
 -> UserClient.getUserById(userId)
--> 远程调用 demo-user-service
+-> 远程调用 demo-user-service (本地mock实现)
 -> 返回 UserDTO
 -> 生成订单号
 -> 返回字符串
